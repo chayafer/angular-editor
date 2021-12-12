@@ -6,8 +6,8 @@
 [![npm version](https://badge.fury.io/js/%40kolkov%2Fangular-editor.svg)](https://badge.fury.io/js/%40kolkov%2Fangular-editor)
 [![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/angular-editor-wysiwyg)
 [![Build Status](https://travis-ci.com/kolkov/angular-editor.svg?branch=master)](https://travis-ci.com/kolkov/angular-editor)
-[![npm](https://img.shields.io/npm/dm/@kolkov/angular-editor.svg)](https://www.npmjs.com/package/@kolkov/angular-editor)
-[![](https://data.jsdelivr.com/v1/package/npm/@kolkov/angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@kolkov/angular-editor)
+[![npm](https://img.shields.io/npm/dm/@chayafer/angular-editor.svg)](https://www.npmjs.com/package/@chayafer/angular-editor)
+[![](https://data.jsdelivr.com/v1/package/npm/@chayafer/angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@chayafer/angular-editor)
 [![Coverage Status](https://coveralls.io/repos/github/kolkov/angular-editor/badge.svg?branch=master)](https://coveralls.io/github/kolkov/angular-editor?branch=master)
 [![dependencies Status](https://david-dm.org/kolkov/angular-editor/status.svg)](https://david-dm.org/kolkov/angular-editor)
 [![devDependencies Status](https://david-dm.org/kolkov/angular-editor/dev-status.svg)](https://david-dm.org/kolkov/angular-editor?type=dev)
@@ -29,7 +29,7 @@ A simple native WYSIWYG/Rich Text editor for Angular 6-12+
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @kolkov/angular-editor --save
+npm install @chayafer/angular-editor --save
 ```
 ### Versions
 
@@ -45,7 +45,7 @@ Import `angular-editor` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from '@kolkov/angular-editor';
+import { AngularEditorModule } from '@chayafer/angular-editor';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -74,7 +74,7 @@ if you using more than one editor on same page set `id` property
 where
 
 ```js
-import { AngularEditorConfig } from '@kolkov/angular-editor';
+import { AngularEditorConfig } from '@chayafer/angular-editor';
 
 
 editorConfig: AngularEditorConfig = {
@@ -260,6 +260,6 @@ See [the Releases section of our project](https://github.com/kolkov/angular-edit
 
 If you like my work and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
 
-[npm]: https://www.npmjs.com/package/@kolkov/angular-editor
+[npm]: https://www.npmjs.com/package/@chayafer/angular-editor
 [demo]: https://angular-editor-wysiwyg.stackblitz.io/
 [example]: https://stackblitz.com/edit/angular-editor-wysiwyg

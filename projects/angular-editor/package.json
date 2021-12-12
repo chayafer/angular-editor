@@ -1,5 +1,5 @@
 {
-  "name": "@kolkov/angular-editor",
+  "name": "@chayafer/angular-editor",
   "version": "1.2.0",
   "description": "A simple native WYSIWYG editor for Angular 8+, 12+. Rich Text editor component for Angular.",
   "author": "Andrey Kolkov <a.kolkov@gmail.com>",
