@@ -1,6 +1,6 @@
 {
   "name": "@chayafer/angular-editor",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,7 +28,7 @@
     "@angular/forms": "^12.1.0",
     "@angular/platform-browser": "^12.1.0",
     "@angular/platform-browser-dynamic": "^12.1.0",
-    "@angular/router": "^12.1.0",    
+    "@angular/router": "^12.1.0",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.5.4",
     "tslib": "^2.2.0",
