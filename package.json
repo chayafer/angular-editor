@@ -1,5 +1,5 @@
 {
-  "name": "@ngx/angular-editor",
+  "name": "@chayafer/angular-editor",
   "version": "1.2.0",
   "scripts": {
     "ng": "ng",
@@ -19,7 +19,7 @@
     "copy:license": "cpx LICENSE dist/angular-editor",
     "test-ci": "ng test angular-editor --code-coverage --no-watch --browsers=ChromeHeadless && cat ./coverage/angular-editor/lcov.info | coveralls"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^12.1.0",
     "@angular/common": "^12.1.0",
@@ -28,8 +28,7 @@
     "@angular/forms": "^12.1.0",
     "@angular/platform-browser": "^12.1.0",
     "@angular/platform-browser-dynamic": "^12.1.0",
-    "@angular/router": "^12.1.0",
-    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@angular/router": "^12.1.0",    
     "font-awesome": "^4.7.0",
     "rxjs": "~6.5.4",
     "tslib": "^2.2.0",
